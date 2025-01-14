@@ -1,4 +1,4 @@
-let media="https://cdn.jsdelivr.net/gh/PerseusinLSC/Gmemp/media/"
+let media="https://cdn.jsdelivr.net/gh/PerseusinLSC/Perseus-Study-Music/media/"
 
 // Cache references to DOM elements.
 let elms = ['track','artist', 'timer', 'duration','post', 'playBtn', 'pauseBtn', 'prevBtn', 'nextBtn', 'playlistBtn', 'postBtn', 'waveBtn', 'volumeBtn', 'progress', 'progressBar','waveCanvas', 'loading', 'playlist', 'list', 'volume', 'barEmpty', 'barFull', 'sliderBtn'];
