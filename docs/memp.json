@@ -1,0 +1,66 @@
+[
+    {
+        "title": "#001 Memories", 
+        "artist": "Maroon 5", 
+        "pic": "001_Memories.jpg", 
+        "mp3": "001_Memories.mp3", 
+        "date": "2019/07/20", 
+        "article": "<p>The song pays homage to the memories of a loved one who has since passed.</p>"
+    }, 
+    {
+        "title": "#002 Land of the Riding Sun", 
+        "artist": "ChickenScuttleMonkey", 
+        "pic": "002_Land of the Rising Sun.jpg", 
+        "mp3": "002_Land of the Rising Sun.mp3", 
+        "date": "2024/07/27", 
+        "article": "<p>A song made by the wonderful community of Polandball, a modified version of the 60's song &quot;House Of The Rising Sun&quot;.</p>"
+    },
+    {
+        "title": "#003 Goodbye to Gravity", 
+        "artist": "ChickenScuttleMonkey", 
+        "pic": "003_Goodbye to Gravity.jpg", 
+        "mp3": "003_Goodbye to Gravity.mp3", 
+        "date": "2024/12/10", 
+        "article": "<p>A song made by the wonderful community of Polandball about the Space Race between the USA and USSR, also a parody of &quot;Defying Gravity&quot;</p>"
+    },
+    {
+        "title": "#004 Two days into Beligum", 
+        "artist": "ChickenScuttleMonkey", 
+        "pic": "004_Two days into Beligum.jpg", 
+        "mp3": "004_Two days into Beligum.mp3", 
+        "date": "2024/12/10", 
+        "article": "<p>A song made by the wonderful community of Polandball about World War One.</p>"
+    },
+    {
+        "title": "#005 Red Commie Club", 
+        "artist": "ChickenScuttleMonkey", 
+        "pic": "005_Red Commie Club.jpg", 
+        "mp3": "005_Red Commie Club.mp3", 
+        "date": "2024/10/04", 
+        "article": "<p>A song made by the wonderful community of Polandball about a parallel universe of Poland actually liked the USSR.</p>"
+    },
+    {
+        "title": "#006 Cupid", 
+        "artist": "FIFTY FIFTY", 
+        "pic": "006_Cupid.jpg", 
+        "mp3": "006_Cupid.mp3", 
+        "date": "2023/02/24", 
+        "article": "<p>A a K-pop, disco-pop, synth-pop, and bubblegum song about a young girl's unrequited love and the shame she feels because of it.</p>"
+    },
+    {
+        "title": "#007 Turkish March", 
+        "artist": "Wolfgang Amadeus Mozart", 
+        "pic": "007_Turkish March.jpg", 
+        "mp3": "007_Turkish March.mp3", 
+        "date": "1783/12/09", 
+        "article": "<p>Mozart's Turkish March, formally known as Rondo alla Turca, is the lively third movement of his Piano Sonata No. 11 in A major, composed in 1783.<br>This piece captures the essence of Turkish military music, characterized by its catchy melody and rhythmic drive, reflecting the 18th-century fascination with Ottoman culture. <br>The composition features distinctive percussion elements, such as cymbals and bass drums, evoking the sounds of Turkish Janissary bands, making it one of Mozart's most recognizable works today.</p>"
+    },
+    {
+        "title": "#008 Memory", 
+        "artist": "Andrew Lloyd Webber from Cats", 
+        "pic": "008_Memory.jpg", 
+        "mp3": "008_Memory.mp3", 
+        "date": "1981/05/01", 
+        "article": "<p>Memory is a poignant ballad from the musical Cats, sung by the character Grizabella as she reflects on her lost past and seeks acceptance from others.</p>"
+    }
+]
