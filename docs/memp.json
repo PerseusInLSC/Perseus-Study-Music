@@ -94,5 +94,13 @@
         "mp3": "012_Star Spangled Banner.mp3",
         "date": "1931/03/03",
         "article": "&quot;The Star-Spangled Banner&quot; is the national anthem of the United States of America."
+    },
+    {
+        "title": "#013 O Canada",
+        "artist": "Robert Stanley Weir, Calixa Lavallée",
+        "pic": "013_O Canada.jpg",
+        "mp3": "013_O Canada.mp3",
+        "date": "1980/06/01",
+        "article": "&quot;O Canada&quot; (French: Ô Canada) is the national anthem of Canada.<br>Calixa Lavallée composed the music.<br>Robert Stanley Weir&#x27;s 1908 version eventually served as the basis for the official lyrics enacted by Parliament."
     }
 ]
