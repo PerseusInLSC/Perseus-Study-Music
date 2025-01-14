@@ -81,10 +81,18 @@
     },
     {
         "title": "#011 God Save the King",
-        "artist": "British National Anthem",
+        "artist": "British National Anthum",
         "pic": "011_God Save The King.jpg",
         "mp3": "011_God Save The King.mp3",
         "date": "1745/07/01",
-        "article": "The National Anthem for the United Kingdom of Great Britain and Northern Ireland, adopted on September 1745."
+        "article": "The National Anthum for the United Kingdom of Great Britain and Northern Ireland, adopted on September 1745."
+    },
+    {
+        "title": "#012 Star Spangled Banner",
+        "artist": "USA National Anthem",
+        "pic": "012_Star Spangled Banner.jpg",
+        "mp3": "012_Star Spangled Banner.mp3",
+        "date": "1931/03/03",
+        "article": "&quot;The Star-Spangled Banner&quot; is the national anthem of the United States of America."
     }
 ]
