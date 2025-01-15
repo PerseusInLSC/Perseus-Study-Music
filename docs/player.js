@@ -423,6 +423,20 @@ document.addEventListener('keyup', function(event) {
     if(pauseBtn.style.display == 'none' || pauseBtn.style.display=="") {player.play();}
     else {player.pause();}
   }
+  else if (event.key == "ArrowRight") {
+    const sound = player.playlist[player.index].howl;
+    if (sound.playing()) {
+      const seekPosition = Math.min(sound.duration(), sound.seek() + 5); // Skip 5 seconds forward
+      player.seek(seekPosition / sound.duration()); // Convert to percentage
+    }
+  } 
+  else if (event.key == "ArrowLeft") {
+    const sound = player.playlist[player.index].howl;
+    if (sound.playing()) {
+      const seekPosition = Math.max(0, sound.seek() - 5); // Skip 5 seconds backward, not less than 0
+      player.seek(seekPosition / sound.duration()); // Convert to percentage
+    }
+  }
   else if(event.key == "MediaTrackNext"){player.skip('next');}
   else if(event.key == "MediaTrackPrevious"){player.skip('prev');}
   else if(event.key == "l"|| event.key === "L"){player.togglePlaylist();}
