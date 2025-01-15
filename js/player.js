@@ -99,8 +99,11 @@ Player.prototype = {
           loading.style.display = 'none';
         },
         onend: function() {
-          // Stop the wave animation.
-          self.skip('next');
+          if (self.isLooping) {
+            self.play(self.index); // Replay the current track
+          } else {
+            self.skip('next'); // Move to the next track
+          }
         },
         onpause: function() {
           // Stop the wave animation.
@@ -311,6 +314,12 @@ Player.prototype = {
     volume.className = (display === 'block') ? 'fadein' : 'fadeout';
   },
 
+  // Method to toggle looping
+  toggleLoop: function() {
+    this.isLooping = !this.isLooping; // Toggle the looping state
+    loopBtn.classList.toggle('active', this.isLooping); // Update button appearance
+  },
+
   //格式化时间为 M:SS.
   formatTime: function(secs) {
     let minutes = Math.floor(secs / 60) || 0;
@@ -343,6 +352,9 @@ playlist.addEventListener('click', function() {
 });
 postBtn.addEventListener('click', function() {
   player.togglePost();
+});
+loopBtn.addEventListener('click', function() {
+  player.toggleLoop();
 });
 waveBtn.addEventListener('click', function() {
   player.toggleWave();
