@@ -4,7 +4,7 @@
 
 - [Demo页面](https://music.meekdai.com/)
 
-![Gmemp - Land of the Rising Sun](https://raw.githubusercontent.com/PerseusInLSC/Gmemp/refs/heads/main/demo.jpg)
+![Gmemp - Land of the Rising Sun](https://raw.githubusercontent.com/PerseusInLSC/Perseus-Study-Music/refs/heads/main/demo.jpg)
 
 ### 文件说明
 1. `docs`文件夹为页面展示html/js/css，`memp.json`文件为歌曲列表。
