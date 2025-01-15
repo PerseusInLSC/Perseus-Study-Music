@@ -125,7 +125,7 @@ Player.prototype = {
     track.innerHTML = data.title;
     artist.innerHTML =  data.artist;
     post.innerHTML = '<p><b>'+data.date+'</b></p>'+data.article;
-    document.title=data.title + " - Perseus&apos; Music Player";//显示浏览器TAB栏内容
+    document.title=data.title + " - Perseus' Music Player";//显示浏览器TAB栏内容
     document.querySelector("body").style.backgroundImage = "url('" +media+ encodeURI(data.pic) + "')";
     window.location.hash="#"+(index);
 
