@@ -349,9 +349,14 @@ body {
   to   { opacity: 0; }
 }
 
+@media screen and (max-width: 700px) {
+#loopBtn{right:5%;margin: -80px auto;}
+}
+
 @media screen and (max-width: 600px) {
 #track{display: none;}
 #artist{display: none;}
 #postBtn{left:5%;margin: -80px auto;}
 #waveBtn{right:5%;margin: -80px auto;}
+#loopBtn{right:5%;margin: -140px auto;}
 }
