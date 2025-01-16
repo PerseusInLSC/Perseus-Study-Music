@@ -25,7 +25,7 @@
 - Edited "player.js" to make the starting track to be 0 and modified the "prev" and "next" logic.
 - Moved the media variable from player.js to index.html
 - Added +/-5 seconds by ← → and loop button.
-- Original respositary: https://github.com/Meekdai/Gmemp
+- Original repository: https://github.com/Meekdai/Gmemp
 
 ### License
 
